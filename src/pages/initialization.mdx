@@ -1,0 +1,82 @@
+---
+name: Application initialization
+route: /
+---
+
+# Initialization
+
+This NodeJs library provides a drop in self sovereign data storage and communication platform for any web application.
+
+Install into your application:
+
+```
+npm install @verida/datastore
+```
+
+### Client side: Initialize Application
+
+Create an application instance and ask the user to authorize your application:
+
+```
+import Verida from '@verida/datastore';
+
+// Fetch the users web3Provider and address
+const web3Provider = await Verida.Helpers.wallet.connectWeb3('ethr');
+const address = await Verida.Helpers.wallet.getAddress('ethr');
+
+Verida.setConfig({
+  appName: '<Company>: <Application Name>'
+});
+
+const app = new Verida({
+    chain: 'ethr',
+    address: address,
+    web3Provider: web3Provider
+});
+```
+
+At this point, the user will be asked to connect Metamask to your application (if they haven't already).
+
+You now have an application instance that allows you to create databases, access other user's public profiles and receive data via the user's application inbox.
+
+See [App API Docs](http://apidocs.datastore.verida.io/App.html) for additional configuration options.
+
+?>Note: You don't have to use the rather basic `Verida.Helpers.wallet`, it's possible to use your own code to locate the user's web3Provider and address.
+
+### Client side: Authorize Application
+
+You can now ask the user to authorize your application:
+
+```
+const connected = await app.connect(true);
+```
+
+A popup will appear asking the user to sign a consent message authorizing the application to use their data. The first time a user connects, the Datastore library will create new encryption keys that are used by this user and this application only.
+
+Once complete, the user is logged into the application.
+
+You can access the user's DID via:
+
+```
+console.log(app.user.did);
+```
+
+### Server side: Authorize Application
+
+It's possible to use the Datastore library on the server-side, within a NodeJs application. In this instance, you will need to have already generated a blockchain wallet with private key.
+
+Initialize the Verida Datastore library as follows:
+
+```
+const chain = 'ethr'
+const address = '0xf3beac30c498d9e26865f34fcaa57dbb935b0d74'
+const privateKey = '<hex private key>`
+
+const app = new Verida({
+  chain: chain,
+  address: address,
+  privateKey: privateKey
+})
+
+await app.connect(true)
+```

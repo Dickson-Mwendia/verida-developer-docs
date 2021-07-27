@@ -8,6 +8,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    "gatsby-theme-docz",
     {
       resolve: "gatsby-plugin-manifest",
       options: {

@@ -1,0 +1,738 @@
+{
+  "config": {
+    "title": "Verida Developer Documentation",
+    "description": "Verida Developer Documentation",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "-quick-start",
+            "depth": 2,
+            "value": "🚀 Quick start"
+          },
+          {
+            "slug": "-quick-start-gatsby-cloud",
+            "depth": 2,
+            "value": "🚀 Quick start (Gatsby Cloud)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/architecture.mdx",
+      "value": {
+        "name": "Verida Architecture",
+        "route": "/",
+        "id": "2ac89ce4224f162afeed3856e16bf0a8",
+        "filepath": "src/pages/architecture.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\architecture.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-architecture",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "architecture",
+            "depth": 1,
+            "value": "Architecture"
+          },
+          {
+            "slug": "design-principles",
+            "depth": 2,
+            "value": "Design Principles"
+          },
+          {
+            "slug": "application-architecture",
+            "depth": 2,
+            "value": "Application Architecture"
+          },
+          {
+            "slug": "1-users-authorize-access",
+            "depth": 3,
+            "value": "1. Users authorize access"
+          },
+          {
+            "slug": "2-create-user-databases",
+            "depth": 3,
+            "value": "2. Create user databases"
+          },
+          {
+            "slug": "3-reading-and-writing-data",
+            "depth": 3,
+            "value": "3. Reading and writing data"
+          },
+          {
+            "slug": "decentralised-self-hosting",
+            "depth": 2,
+            "value": "Decentralised self-hosting"
+          },
+          {
+            "slug": "cross-application-data-sharing",
+            "depth": 2,
+            "value": "Cross application data sharing"
+          },
+          {
+            "slug": "security",
+            "depth": 2,
+            "value": "Security"
+          },
+          {
+            "slug": "identity",
+            "depth": 2,
+            "value": "Identity"
+          },
+          {
+            "slug": "authorization",
+            "depth": 2,
+            "value": "Authorization"
+          },
+          {
+            "slug": "data-storage",
+            "depth": 2,
+            "value": "Data Storage"
+          },
+          {
+            "slug": "data-schemas",
+            "depth": 2,
+            "value": "Data Schemas"
+          },
+          {
+            "slug": "data-querying",
+            "depth": 2,
+            "value": "Data Querying"
+          },
+          {
+            "slug": "data-synchronisation",
+            "depth": 2,
+            "value": "Data Synchronisation"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/configuration.mdx",
+      "value": {
+        "name": "Datastore Configuration",
+        "route": "/",
+        "id": "61ca6157a06bbf704ecb81c681c41e57",
+        "filepath": "src/pages/configuration.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\configuration.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-configuration",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "datastore-configuration",
+            "depth": 1,
+            "value": "Datastore Configuration"
+          },
+          {
+            "slug": "available-options",
+            "depth": 2,
+            "value": "Available options"
+          },
+          {
+            "slug": "schemas",
+            "depth": 3,
+            "value": "Schemas"
+          },
+          {
+            "slug": "via-code",
+            "depth": 2,
+            "value": "Via Code"
+          },
+          {
+            "slug": "via-environment-variables",
+            "depth": 2,
+            "value": "Via Environment Variables"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/data.mdx",
+      "value": {
+        "name": "Data",
+        "route": "/",
+        "id": "672c2e8b4d3dff3c0b3b6ea8b5fe21f2",
+        "filepath": "src/pages/data.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\data.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-data",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "data",
+            "depth": 1,
+            "value": "Data"
+          },
+          {
+            "slug": "databases",
+            "depth": 2,
+            "value": "Databases"
+          },
+          {
+            "slug": "using-databases",
+            "depth": 3,
+            "value": "Using Databases"
+          },
+          {
+            "slug": "datastores",
+            "depth": 2,
+            "value": "Datastores"
+          },
+          {
+            "slug": "open-a-datastore",
+            "depth": 3,
+            "value": "Open a Datastore"
+          },
+          {
+            "slug": "querying",
+            "depth": 3,
+            "value": "Querying"
+          },
+          {
+            "slug": "pagination",
+            "depth": 4,
+            "value": "Pagination"
+          },
+          {
+            "slug": "saving",
+            "depth": 3,
+            "value": "Saving"
+          },
+          {
+            "slug": "deleting",
+            "depth": 3,
+            "value": "Deleting"
+          },
+          {
+            "slug": "permissions",
+            "depth": 2,
+            "value": "Permissions"
+          },
+          {
+            "slug": "datatore-v-database",
+            "depth": 2,
+            "value": "Datatore v Database"
+          },
+          {
+            "slug": "indexes",
+            "depth": 2,
+            "value": "Indexes"
+          },
+          {
+            "slug": "real-time-changes",
+            "depth": 2,
+            "value": "Real-time changes"
+          },
+          {
+            "slug": "shared-databases",
+            "depth": 2,
+            "value": "Shared Databases"
+          },
+          {
+            "slug": "1-create-a-did-for-your-application",
+            "depth": 3,
+            "value": "1. Create a DID for your application"
+          },
+          {
+            "slug": "2-create-a-shared-database",
+            "depth": 3,
+            "value": "2. Create a shared database"
+          },
+          {
+            "slug": "3-enable-users-to-access-the-shared-database",
+            "depth": 3,
+            "value": "3. Enable users to access the shared database"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/demos.mdx",
+      "value": {
+        "name": "Demos",
+        "route": "/",
+        "id": "80bdc486cbd347360fe68cab5ee1eca7",
+        "filepath": "src/pages/demos.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\demos.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-demos",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "examples",
+            "depth": 1,
+            "value": "Examples"
+          },
+          {
+            "slug": "credentials-id-verify-demo",
+            "depth": 2,
+            "value": "Credentials (id-verify-demo)"
+          },
+          {
+            "slug": "retail-retail-demo",
+            "depth": 2,
+            "value": "Retail (retail-demo)"
+          },
+          {
+            "slug": "health-health-demo",
+            "depth": 2,
+            "value": "Health (health-demo)"
+          },
+          {
+            "slug": "contacts",
+            "depth": 2,
+            "value": "Contacts"
+          },
+          {
+            "slug": "chat-room",
+            "depth": 2,
+            "value": "Chat room"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/frameworks.mdx",
+      "value": {
+        "name": "Frameworks",
+        "route": "/",
+        "id": "88f3f5c930f0aed4d8307521d6a0b193",
+        "filepath": "src/pages/frameworks.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\frameworks.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-frameworks",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "vuejs",
+            "depth": 2,
+            "value": "Vue.js"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/future.mdx",
+      "value": {
+        "name": "Future",
+        "route": "/",
+        "id": "e0e07097875d39199f604e22edc31f79",
+        "filepath": "src/pages/future.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\future.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-future",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "readmemd",
+            "depth": 2,
+            "value": "Readme.md"
+          },
+          {
+            "slug": "syncing-a-datastore",
+            "depth": 3,
+            "value": "Syncing a Datastore"
+          },
+          {
+            "slug": "getting-a-public-profile",
+            "depth": 2,
+            "value": "Getting a Public Profile"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/guide.mdx",
+      "value": {
+        "name": "Verida User Guide",
+        "route": "/",
+        "id": "8fc9e658ec882e58b20adb661cc183a5",
+        "filepath": "src/pages/guide.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\guide.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-guide",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "verida-user-guide",
+            "depth": 1,
+            "value": "Verida User Guide"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/hosting.mdx",
+      "value": {
+        "name": "Hosting",
+        "route": "/",
+        "id": "7f53cb664ebe046ae1159368496407e6",
+        "filepath": "src/pages/hosting.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\hosting.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-hosting",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hosting",
+            "depth": 1,
+            "value": "Hosting"
+          },
+          {
+            "slug": "application-data",
+            "depth": 2,
+            "value": "Application Data"
+          },
+          {
+            "slug": "user-data",
+            "depth": 2,
+            "value": "User Data"
+          },
+          {
+            "slug": "notes",
+            "depth": 2,
+            "value": "Notes"
+          },
+          {
+            "slug": "too-many-sockets",
+            "depth": 3,
+            "value": "Too many sockets"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/identity.mdx",
+      "value": {
+        "name": "Identity",
+        "route": "/",
+        "id": "adfb116a2b8d74367a32954b2a95d72b",
+        "filepath": "src/pages/identity.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\identity.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-identity",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "identity",
+            "depth": 1,
+            "value": "Identity"
+          },
+          {
+            "slug": "decentralized-identitifers-dids",
+            "depth": 2,
+            "value": "Decentralized Identitifers (DIDs)"
+          },
+          {
+            "slug": "public-blockchain-dids",
+            "depth": 3,
+            "value": "Public blockchain DID's"
+          },
+          {
+            "slug": "verida-dids-vid",
+            "depth": 3,
+            "value": "Verida DID's (VID)"
+          },
+          {
+            "slug": "multipe-personas",
+            "depth": 2,
+            "value": "Multipe Personas"
+          },
+          {
+            "slug": "data-hosting--control",
+            "depth": 2,
+            "value": "Data Hosting  &  Control"
+          },
+          {
+            "slug": "encryption-keys",
+            "depth": 2,
+            "value": "Encryption Keys"
+          },
+          {
+            "slug": "vid-document",
+            "depth": 2,
+            "value": "VID Document"
+          },
+          {
+            "slug": "did-server",
+            "depth": 2,
+            "value": "DID server"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/initialization.mdx",
+      "value": {
+        "name": "Application initialization",
+        "route": "/",
+        "id": "c32c70d840863b3dbeea839e2b517956",
+        "filepath": "src/pages/initialization.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\initialization.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-initialization",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "initialization",
+            "depth": 1,
+            "value": "Initialization"
+          },
+          {
+            "slug": "client-side-initialize-application",
+            "depth": 3,
+            "value": "Client side: Initialize Application"
+          },
+          {
+            "slug": "client-side-authorize-application",
+            "depth": 3,
+            "value": "Client side: Authorize Application"
+          },
+          {
+            "slug": "server-side-authorize-application",
+            "depth": 3,
+            "value": "Server side: Authorize Application"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/messaging.mdx",
+      "value": {
+        "name": "Messaging",
+        "route": "/",
+        "id": "699833f57575db994ad673cfa1f15a61",
+        "filepath": "src/pages/messaging.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\messaging.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-messaging",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "messaging",
+            "depth": 1,
+            "value": "Messaging"
+          },
+          {
+            "slug": "overview",
+            "depth": 2,
+            "value": "Overview"
+          },
+          {
+            "slug": "inbox",
+            "depth": 3,
+            "value": "Inbox"
+          },
+          {
+            "slug": "outbox",
+            "depth": 3,
+            "value": "Outbox"
+          },
+          {
+            "slug": "built-in-message-types",
+            "depth": 2,
+            "value": "Built-in Message Types"
+          },
+          {
+            "slug": "examples",
+            "depth": 2,
+            "value": "Examples"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/sandbox.mdx",
+      "value": {
+        "name": "Sandbox",
+        "route": "/",
+        "id": "0e172d727c795685652204cf76821f28",
+        "filepath": "src/pages/sandbox.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\sandbox.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-sandbox",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "sandbox",
+            "depth": 1,
+            "value": "Sandbox"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/schemas.mdx",
+      "value": {
+        "name": "Schemas",
+        "route": "/",
+        "id": "feb7d61bffc5371a2c6b2da346297196",
+        "filepath": "src/pages/schemas.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\schemas.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-schemas",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "schemas",
+            "depth": 1,
+            "value": "Schemas"
+          },
+          {
+            "slug": "types-of-schemas",
+            "depth": 2,
+            "value": "Types of Schemas"
+          },
+          {
+            "slug": "core-schemas",
+            "depth": 3,
+            "value": "Core schemas"
+          },
+          {
+            "slug": "application-schemas",
+            "depth": 3,
+            "value": "Application schemas"
+          },
+          {
+            "slug": "industry-schemas",
+            "depth": 3,
+            "value": "Industry schemas"
+          },
+          {
+            "slug": "non-schema-data",
+            "depth": 2,
+            "value": "Non-Schema Data"
+          },
+          {
+            "slug": "validation",
+            "depth": 2,
+            "value": "Validation"
+          },
+          {
+            "slug": "base-schema",
+            "depth": 2,
+            "value": "Base Schema"
+          },
+          {
+            "slug": "example-schema",
+            "depth": 2,
+            "value": "Example Schema"
+          },
+          {
+            "slug": "allof",
+            "depth": 3,
+            "value": "allOf"
+          },
+          {
+            "slug": "creating-schemas",
+            "depth": 2,
+            "value": "Creating Schemas"
+          },
+          {
+            "slug": "versioning",
+            "depth": 2,
+            "value": "Versioning"
+          },
+          {
+            "slug": "migration",
+            "depth": 2,
+            "value": "Migration"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/sync-wip.mdx",
+      "value": {
+        "name": "Request sync access",
+        "route": "/",
+        "id": "c878557c589d6888f236ba9e98d02468",
+        "filepath": "src/pages/sync-wip.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\sync-wip.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-sync-wip",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "overview",
+            "depth": 2,
+            "value": "Overview"
+          },
+          {
+            "slug": "request-sync-access-syncrequest",
+            "depth": 2,
+            "value": "Request sync access (syncRequest)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/sync.mdx",
+      "value": {
+        "name": "Synchronising Data",
+        "route": "/",
+        "id": "210577ee39c83d115bb6e27af47903e6",
+        "filepath": "src/pages/sync.mdx",
+        "fullpath": "C:\\Users\\user\\Desktop\\VERIDA\\verida-developer-docs\\src\\pages\\sync.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-pages-sync",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "syncronising-data",
+            "depth": 1,
+            "value": "Syncronising Data"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "HomePage",
+          "methods": [],
+          "actualName": "HomePage"
+        }
+      ]
+    }
+  ]
+}
